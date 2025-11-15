@@ -14,12 +14,14 @@ public class EnumSets {
     points.addAll(EnumSet.of(STAIR1, STAIR2, KITCHEN));
     print(points);
     points = EnumSet.allOf(AlarmPoints.class);
+    print(points);
     points.removeAll(EnumSet.of(STAIR1, STAIR2, KITCHEN));
     print(points);
-    points.removeAll(EnumSet.range(OFFICE1, OFFICE4));
+    points.removeAll(EnumSet.range(OFFICE1, OFFICE4));//range() 取某个范围的内容
     print(points);
     points = EnumSet.complementOf(points);
     print(points);
+    print(EnumSet.range(STAIR2,OFFICE3));
   }
 } /* Output:
 [BATHROOM]
