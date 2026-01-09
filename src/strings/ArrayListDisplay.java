@@ -1,5 +1,5 @@
 //: strings/ArrayListDisplay.java
-package reusing;
+package strings;
 import generics.coffee.*;
 import java.util.*;
 

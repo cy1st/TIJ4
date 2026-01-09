@@ -18,6 +18,7 @@ public class BufferedInputFile {
   }
   public static void main(String[] args)
   throws IOException {
-    System.out.print(read("BufferedInputFile.java"));
+//      File file = new File("/Users/alan/IdeaProjects/book_source_code/TIJ4/src/io/BufferedInputFile.java");
+      System.out.print(read("/Users/alan/IdeaProjects/book_source_code/TIJ4/src/io/BufferedInputFile.java"));
   }
 } /* (Execute to see output) *///:~
